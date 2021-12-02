@@ -52,21 +52,21 @@ img {
   font-family: 'Samsung Sharp Sans Regular';
   font-display: swap;
   font-style: normal;
-  src: local("Samsung Sharp Sans Regular"), url("fonts/samsungsharpsans.woff") format("woff");
+  src: local("Samsung Sharp Sans Regular"), url("https://cdn.jsdelivr.net/gh/NetHir-De/galaxys21/fonts/samsungsharpsans.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Samsung Sharp Sans Medium';
   font-display: swap;
   font-style: normal;
-  src: local("Samsung Sharp Sans Medium"), url("fonts//samsungsharpsans-medium.woff") format("woff");
+  src: local("Samsung Sharp Sans Medium"), url("https://cdn.jsdelivr.net/gh/NetHir-De/galaxys21/fonts/samsungsharpsans-medium.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Samsung Sharp Sans Bold';
   font-display: swap;
   font-style: normal;
-  src: local("Samsung Sharp Sans Bold"), url("fonts//samsungsharpsans-bold.woff") format("woff");
+  src: local("Samsung Sharp Sans Bold"), url("https://cdn.jsdelivr.net/gh/NetHir-De/galaxys21/fonts/samsungsharpsans-bold.woff") format("woff");
 }
 
 /* FONTS CSS END'S HERE */
@@ -267,7 +267,7 @@ section {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url(images/banner.png) no-repeat center;
+  background: url(https://galaxys21-netizens.netlify.app/images/banner.png) no-repeat center;
   background-size: cover;
   z-index: -1;
 }
@@ -820,7 +820,7 @@ section {
 }
 
 .banner_wrapper .product_wrapper .product_block .form_wrapper .form_block .form-group select {
-  background-image: url(https://youthful-minsky-4c6c73.netlify.app/images/dropdown.png);
+  background-image: url(https://galaxys21-netizens.netlify.app/images/dropdown.png);
   background-repeat: no-repeat;
   background-position: right 20px center;
   color: #888888;
@@ -876,7 +876,7 @@ section {
 }
 
 .banner_wrapper .product_wrapper .product_block .form_wrapper .form_block .form-group .form-check .form-check-input:checked[type=checkbox] {
-  background-image: url(images/right.svg);
+  background-image: url(https://galaxys21-netizens.netlify.app/images/right.svg);
   background-color: #fff;
   border: 1px solid #fff;
 }
@@ -1574,7 +1574,7 @@ section {
 /* CAMERA BLOCK CSS END HERE */
 /* NIGHT MODE BLOCK CSS START HERE */
 .night_wrapper {
-  background-image: url(images/Night.png);
+  background-image: url(https://galaxys21-netizens.netlify.app/images/Night.png);
   background-position: center;
   background-size: cover;
   padding: 400px 0;
